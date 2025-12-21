@@ -14,6 +14,11 @@ Group:		System/Internationalization
 Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/aspell5-%{languagecode}-%{src_ver}.tar.bz2
 Url:		https://aspell.net/
 License:	GPLv2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	aspell >= 0.50
 Requires:	aspell >= 0.50
 # Mandriva Stuff
